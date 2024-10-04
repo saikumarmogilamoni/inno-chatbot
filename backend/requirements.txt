@@ -1,0 +1,7 @@
+# backend/requirements.txt
+
+Flask==2.2.5
+flask-cors>=3.0.10,<4.0.0
+scikit-learn==1.2.2  # Ensure you are using a stable version
+gunicorn==20.1.0
+numpy==1.23.5  # Set to a version compatible with scikit-learn 1.2.2
